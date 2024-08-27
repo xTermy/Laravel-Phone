@@ -1,5 +1,5 @@
 {
-    "name": "propaganistas/laravel-phone",
+    "name": "stormcode/laravel-phone",
     "description": "Adds phone number functionality to Laravel based on Google's libphonenumber API.",
     "keywords": [
         "laravel",
