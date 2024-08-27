@@ -31,7 +31,7 @@ class Phone implements Rule, ValidatorAwareRule
 
     public function passes($attribute, $value)
     {
-        if(is_null($value)) return true;
+        if(empty($value)) return true;
         
         $countries = PhoneNumberCountry::sanitize([
             $this->getCountryFieldValue($attribute),
